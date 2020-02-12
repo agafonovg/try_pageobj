@@ -1,4 +1,4 @@
-from YandexPages import SearchHelper
+from automationpractice import SearchHelper
 
 def test_yandex_search(browser):
     yandex_main_page = SearchHelper(browser)
